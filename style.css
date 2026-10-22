@@ -55,3 +55,17 @@ footer {
     margin-top: 20px;
     border-top: 4px solid #f4a261;
 }
+
+/* Class selector for content sections */
+.content-section {
+    padding: 25px;
+    margin: 20px;
+    border: 2px solid #b8cddd;
+}
+
+/* ID selector for career goals */
+#career-goals {
+    background-color: #fff4e6;
+    border-left: 5px solid #f4a261;
+}
+
