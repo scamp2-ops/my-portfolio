@@ -1,0 +1,57 @@
+
+/* Style for the entire webpage */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the header */
+header {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #f4a261;
+}
+
+/* Style for the navigation links */
+nav {
+    background-color: #dce8f0;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid #f4a261;
+}
+
+nav a {
+    color: #234e70;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Style for the content sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #b8cddd;
+    border-radius: 8px;
+}
+
+/* Style for the headings */
+h2 {
+    color: #234e70;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 4px solid #f4a261;
+}
