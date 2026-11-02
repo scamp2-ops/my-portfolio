@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
 /* Style for the entire webpage */
 body {
-    font-family: Arial, sans-serif;
+font-family: 'Open Sans', sans-serif;
     background-color: #f0f4f8;
     color: #333333;
     margin: 0;
@@ -42,8 +42,9 @@ section {
 }
 
 /* Style for the headings */
-h2 {
+h1, h2, h3 {
     color: #234e70;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Style for the footer */
@@ -149,4 +150,6 @@ img {
         padding: 35px;
     }
 }
-
+header h1 {
+    color: white;
+}
