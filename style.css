@@ -153,8 +153,3 @@ img {
 header h1 {
     color: white;
 }
-/* Temporary accessibility test */
-main p {
-    color: #eeeeee !important;
-    background-color: #ffffff !important;
-}
