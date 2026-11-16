@@ -32,3 +32,24 @@ Both pass WCAG AA standards.
 I also added visible keyboard focus outlines to make
 navigation easier for people who do not use a mouse.
 
+## Gestalt Design Principles
+
+I used two Gestalt principles to make my website
+more organized and easier to navigate.
+
+### 1. Proximity
+
+I used proximity by grouping related information
+inside sections with spacing and borders. This
+helps visitors understand which information
+belongs together without making the pages look
+cluttered.
+
+### 2. Similarity
+
+I used similarity by keeping the same colors,
+headings, borders, and section styles throughout
+my website. This makes all three pages look
+connected and helps visitors recognize similar
+types of content.
+
