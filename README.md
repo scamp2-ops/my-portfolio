@@ -17,3 +17,18 @@ For this project, I worked on making my website easier for everyone to use, incl
 
 I previously tested my website using WAVE and manually checked keyboard navigation, image descriptions, and mobile responsiveness. I will recheck all three pages after completing the new updates.
 
+### Color Contrast
+
+I used a consistent color palette throughout my website.
+My main colors are dark blue, light blue, white, and
+orange. I checked the contrast ratios to make sure the
+text is easy to read.
+
+The dark blue and white combination has a contrast
+ratio of 8.77:1, and the dark blue text on the light
+blue navigation background has a ratio of 7.03:1.
+Both pass WCAG AA standards.
+
+I also added visible keyboard focus outlines to make
+navigation easier for people who do not use a mouse.
+
