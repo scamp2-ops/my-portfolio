@@ -163,3 +163,119 @@ select:focus-visible {
     outline: 3px solid #234e70;
     outline-offset: 3px;
 }
+
+/* Accessible Contact Form Styling */
+
+#contact {
+    background-color: #ffffff;
+    border: 2px solid #b8cddd;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+#contact h2 {
+    color: #234e70;
+}
+
+/* Group the form fields */
+fieldset {
+    border: 2px solid #234e70;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    min-width: 0;
+}
+
+legend {
+    color: #234e70;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+/* Space out each field */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels above inputs */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+/* Input boxes */
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #234e70;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+    font: inherit;
+}
+
+/* Visible keyboard focus */
+.form-group input:focus-visible,
+.form-group textarea:focus-visible {
+    outline: 3px solid #234e70;
+    outline-offset: 3px;
+}
+
+/* Invalid form fields */
+.form-group input[aria-invalid="true"],
+.form-group textarea[aria-invalid="true"] {
+    border: 3px solid #b00020;
+}
+
+/* Error messages */
+.error-message {
+    color: #b00020;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Submit button */
+#contact button {
+    background-color: #234e70;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: 2px solid #234e70;
+    border-radius: 5px;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #17364e;
+}
+
+/* Keyboard focus on submit button */
+#contact button:focus-visible {
+    outline: 3px solid #234e70;
+    outline-offset: 4px;
+}
+
+/* Form status message */
+#form-status {
+    color: #333333;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Keep the form readable on small screens */
+@media screen and (max-width: 599px) {
+    #contact {
+        padding: 15px;
+    }
+
+    fieldset {
+        padding: 12px;
+    }
+}
