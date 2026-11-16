@@ -120,7 +120,13 @@ document.getElementById("contact-form").addEventListener("submit", function(even
             !input.validity.valid;
         const invalid = empty || invalidEmail;
 
-        error.textContent = invalid ? item[2] : "";
+      error.textContent = invalid ? item[2] : "";
+
+if (invalid) {
+    error.setAttribute("role", "alert");
+} else {
+    error.removeAttribute("role");
+}
 
         if (invalid) {
             input.setAttribute("aria-invalid", "true");
