@@ -15,7 +15,12 @@ For this project, I worked on making my website easier for everyone to use, incl
 
 ### Accessibility Testing
 
-I previously tested my website using WAVE and manually checked keyboard navigation, image descriptions, and mobile responsiveness. I will recheck all three pages after completing the new updates.
+I tested all three pages using the WAVE Accessibility
+Checker after making my updates. All three pages
+had zero errors, zero contrast errors, and zero
+alerts. I also checked the contact form's error
+messages to make sure they were accessible.
+
 
 ### Color Contrast
 
