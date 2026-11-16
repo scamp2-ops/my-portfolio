@@ -153,3 +153,13 @@ img {
 header h1 {
     color: white;
 }
+
+/* Make keyboard navigation easier to see */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 3px solid #234e70;
+    outline-offset: 3px;
+}
