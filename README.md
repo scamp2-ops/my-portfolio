@@ -71,6 +71,30 @@ the validation worked.
 This is a demonstration form, so it does not
 actually send messages.
 
+## Final Accessibility Testing Results
+
+I tested all three pages of my portfolio using
+the WAVE Accessibility Checker.
+
+| Page | Errors | Contrast Errors | Alerts |
+|------|--------|-----------------|--------|
+| Home | 0 | 0 | 0 |
+| Projects | 0 | 0 | 0 |
+| About/Contact | 0 | 0 | 0 |
+
+All three pages passed the WAVE checks with no
+reported errors or contrast errors.
+
+I also tested my contact form by submitting it
+with empty fields and checking that the error
+messages appeared on the page. The form uses
+labels, fieldset, legend, and ARIA attributes
+to improve accessibility.
+
+I used the Gestalt principles of proximity and
+similarity to keep my website organized and
+consistent across all three pages.
+
 ### 2. Similarity
 
 I used similarity by keeping the same colors,
